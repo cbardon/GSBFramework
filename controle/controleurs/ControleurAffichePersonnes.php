@@ -17,7 +17,7 @@ class ControleurAffichePersonnes implements ControleurInterface {
             $vue->getPersonne()->afficheLesPersonnes($result);
         }
         catch(ModeleExceptions $ex){
-            $vue->getGeneralHTML()->afficheException($ex->getMessageErreur());
+            $vue->getGeneral()->afficheException($ex->getMessageErreur());
         }       
     }
 }

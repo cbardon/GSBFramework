@@ -10,7 +10,7 @@ class ControleurAfficheActionVideNonReconnue implements ControleurInterface {
    
     public function dispatch($vue, $modele, $tabParametres) {
         //on a besoin de récupérer les genres pour les affichier
-        $vue->getGeneralHTML()->afficheActionVideNonReconnue();
+        $vue->getGeneral()->afficheActionVideNonReconnue();
     }
 }
 

@@ -32,7 +32,7 @@ class VueDeTestHTML implements VueInterface {
         return new PersonneHTML();
     }
 
-    public function getGeneralHTML(){
+    public function getGeneral(){
         return new GeneralHTML();
     }
 }

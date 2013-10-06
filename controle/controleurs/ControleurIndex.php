@@ -10,7 +10,7 @@ require_once 'ControleurInterface.php';
 class ControleurIndex implements ControleurInterface {
    
     public function dispatch($vue, $modele, $tabParametres) {
-         $vue->getGeneralHTML()->afficheIndex();
+         $vue->getGeneral()->afficheIndex();
     }
 }
 
