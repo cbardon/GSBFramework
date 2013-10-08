@@ -38,9 +38,14 @@ class GeneralHTML {
     public function afficheIndex(){
         $this->getDebutPage("Bienvenue sur le site de test du framework GSB");
         ?>     
-            <a href="do.php?action=affichePersonnes"> Visualiser personnes</a><BR/>
-            <a href="do.php?action=afficheFormInserePersonne"> Insérer personne</a><BR/>
-            <a href="do.php?action=testModele"> Test</a><BR/>
+            <a href="do.php?action=affichePersonnes"> Visualiser personnes</a>&nbsp;&nbsp;
+            <a href="do.php?action=afficheFormInserePersonne"> Insérer personne</a>&nbsp;&nbsp;
+            <!--<a href="do.php?action=testModele"> Test</a>&nbsp;&nbsp;-->
+            <a href="do.php?action=affichePrenoms">Visualiser tout les prénoms</a>&nbsp;&nbsp;
+            <a href ="do.php?action=affichePrenomsFeminin">Visualiser tout les prénoms Feminin</a>&nbsp;&nbsp;
+            <a href="do.php?action=afficheFormInsereVoiture"> Insérer voiture</a>&nbsp;&nbsp;
+            <a href ="do.php?action=afficheFormSuppressionPersonne"> Supprimer personne</a>
+            <a href="do.php?action=afficheFormModifierPersonne"> Modifier Personne</a>&nbsp;&nbsp;
         <?php
         $this->getRetourAccueil();
         $this->getFinPage();
